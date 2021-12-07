@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da18b306.chunk.css",
+    "main.js": "/static/js/main.d971c577.chunk.js",
+    "main.js.map": "/static/js/main.d971c577.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2730a332.chunk.js": "/static/js/2.2730a332.chunk.js",
+    "static/js/2.2730a332.chunk.js.map": "/static/js/2.2730a332.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.da18b306.chunk.css.map": "/static/css/main.da18b306.chunk.css.map",
+    "static/js/2.2730a332.chunk.js.LICENSE.txt": "/static/js/2.2730a332.chunk.js.LICENSE.txt",
+    "static/media/roulettewheel.14921731.png": "/static/media/roulettewheel.14921731.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2730a332.chunk.js",
+    "static/css/main.da18b306.chunk.css",
+    "static/js/main.d971c577.chunk.js"
+  ]
+}

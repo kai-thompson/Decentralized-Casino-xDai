@@ -1,0 +1,32 @@
+.App{
+  /*background-image: url(./assets/background.png);*/
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.roulettewheel{
+  position: relative;
+  left: 225px;
+  top: 50px;
+}
+.header{
+  background-color: #191970;
+  border-top-style: solid; 
+  border-width: 45px;
+  border-color: #1f1f93;
+  margin: 0px;
+  padding: 0px;
+}
+.wallet{
+  position: relative;
+  left: 1650px;
+  bottom: 40px;
+}
+.deposit-withdrawal{
+  position: relative;
+  bottom: 150px;
+  left: 750px;
+}
