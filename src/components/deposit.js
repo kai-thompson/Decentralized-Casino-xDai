@@ -19,7 +19,7 @@ export default function Deposit() {
   return (
     <div>
       <Col sm={2}>
-        <h5 style={{ display: "inline-block", fontFamily: "sans-serif", color: "white "}}>Pool Balance: {userBalance} </h5>
+        <h5 style={{ display: "inline-block", fontFamily: "sans-serif", color: "white "}}>Your Pool Balance: {userBalance} </h5>
         <Form.Control
           value={amount}
           onInput={(e) => setAmount(e.target.value)}
