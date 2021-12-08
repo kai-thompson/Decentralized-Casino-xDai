@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 
 const rouletteABI = require("../contracts/Roulette.json");
 const poolABI = require("../contracts/Pool.json");
-const rouletteAddress = "0xF6d379C0097F9F75d0aCfFc82DEc7a7dD0289422";
+const rouletteAddress = "0xa77096c9E5C7e43851a271380e3Bf6e8CdF29761";
 const poolAddress = "0xA34BA6F311Ad032e8F8a03Ab39f16007bf669764";
 
 
