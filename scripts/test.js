@@ -1,18 +1,52 @@
-function test(val) {
-    let sum = 0;
-    let exp = -1;
+function test(size) {
+    let pot = 100;
+    let sum =0
+    i = 0
 
-    console.log(val / (2 ** exp));
+    while(pot > 0) {
+        if(i > 100) return "passed"
+        let betSize = 100 / size
+        pot += betSize * 0.025
+        betSize -= betSize * 0.025
+        if(getRandomInt(2) === 1) {
+            pot -= betSize
+            sum++
+            i++
+        }else {
+            pot += betSize
+            sum++
+            i++
+        }
+    }
+    return "failed"
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
 }
 
-test(30);
+function check() {
+    console.log("Loading...")
+    bet = 0;
+    index = 0
+    j = 0
 
-// uint sum;
-// uint exp = risk - loseStreak;
+    while(true) {
+        if(index === 10000) {
+            if(j === index) return bet;
+            console.log(`Bet value ${bet} check but failed. Moving on...`)
+            bet++; 
+            index = 0;
+            j = 0
+        }
+        if(test(bet) === "passed") {
+            j++
+        }
+        index++;
+    }
+}
 
-// for(uint8 i = 0; i < exp; i++) {
-//     sum += address(house).balance * 1000000 / (2 ** exp);
-//     exp--;
-// }
+console.log(check())
 
-// return sum / 12 /1000000;
+//results= 68
+ 

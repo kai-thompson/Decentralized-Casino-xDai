@@ -53,7 +53,7 @@ contract Roulette {
     constructor(address payable _house) { 
         house = _house;
         owner = payable(msg.sender);
-        risk = 8;
+        risk = 35;
     }
     
     struct Game {
@@ -128,7 +128,6 @@ contract Roulette {
     }
 
     function determineMaxBet() public view returns(uint) {
-        uint exp = risk - loseStreak;
-        return address(house).balance / (2 ** exp) / 12;
+        return address(house).balance / risk / 12;
     }
 }
