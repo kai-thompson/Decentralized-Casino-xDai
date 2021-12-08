@@ -13,6 +13,7 @@ Upon deposit, a staker is issued an LP token to reflect their percent share in t
 When placing a bet, a player chooses between either red, black, or green, and submits a transaction to the game contract. Next, the game contract calls the pool contract to make a bet of 12x the player's bet, which is necessary to pay out the max win(green). A random number is generated within a 36 figure range, and the funds are paid back to the pool and player depending on the player's guess and the outcome.
 
 ## Live Deployment
+** NO MOBILE SUPPORT **
 Website:
 https://decentralized-casino-xdai.vercel.app/
 
