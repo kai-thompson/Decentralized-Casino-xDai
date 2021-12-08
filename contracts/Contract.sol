@@ -128,14 +128,7 @@ contract Roulette {
     }
 
     function determineMaxBet() public view returns(uint) {
-        uint sum;
         uint exp = risk - loseStreak;
-
-        for(uint8 i = 0; i < exp; i++) {
-            sum += address(house).balance * 1000000 / (2 ** exp);
-            exp--;
-        }
-
-        return sum / 12 /1000000;
+        return address(house).balance * 1000000 / (2 ** exp);
     }
 }

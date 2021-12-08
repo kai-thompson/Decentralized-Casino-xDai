@@ -1,14 +1,18 @@
 function test(val) {
     let sum = 0;
-    let exp = 8;
+    let exp = -1;
 
-    for(let i = 0; i < 8; i++) {
-        let fraction = val / (2 ** exp);
-        sum += fraction;
-        exp--;
-    }
-
-    console.log(sum);
+    console.log(val / (2 ** exp));
 }
 
-test(1000);
+test(30);
+
+// uint sum;
+// uint exp = risk - loseStreak;
+
+// for(uint8 i = 0; i < exp; i++) {
+//     sum += address(house).balance * 1000000 / (2 ** exp);
+//     exp--;
+// }
+
+// return sum / 12 /1000000;
