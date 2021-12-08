@@ -32,9 +32,9 @@ function check() {
     j = 0
 
     while(true) {
-        if(index === 10000) {
+        if(index === 100000) {
             if(j === index) return bet;
-            console.log(`Bet value ${bet} check but failed. Moving on...`)
+            console.log(`Bet value ${bet} failed. ${j/index * 100}% passed or ${Math.floor((1 - j/index) * 100000)}/100000 failed. Moving on...`)
             bet++; 
             index = 0;
             j = 0

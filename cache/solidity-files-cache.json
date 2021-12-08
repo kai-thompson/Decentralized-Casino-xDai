@@ -222,8 +222,8 @@
       ]
     },
     "/home/kai/Programming/Decentralized-Casino-xDai/contracts/Contract.sol": {
-      "lastModificationDate": 1638943805210,
-      "contentHash": "7a22246e19d0af9db52234ba4f034781",
+      "lastModificationDate": 1638944707751,
+      "contentHash": "96ebdadef69fe20cee1b6a59e40842d4",
       "sourceName": "contracts/Contract.sol",
       "solcConfig": {
         "version": "0.8.4",

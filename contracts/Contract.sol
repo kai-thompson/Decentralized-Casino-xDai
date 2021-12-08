@@ -128,6 +128,6 @@ contract Roulette {
     }
 
     function determineMaxBet() public view returns(uint) {
-        return address(house).balance / risk / 12;
+        return address(house).balance / risk / 11;
     }
 }

@@ -7,7 +7,7 @@ import { ethers } from "ethers";
 import { ButtonGroup, Button, Col, Form} from "react-bootstrap";
 
 const rouletteABI = require("../contracts/Roulette.json");
-const rouletteAddress = "0x1C50827B5e11Cdb17C2638AAFC54294B55dd970B";
+const rouletteAddress = "0xc56aAa635d50c2c6d03B69C9FB64190F5CF1dec6";
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const signer = provider.getSigner();
 const rouletteContract = new ethers.Contract(
