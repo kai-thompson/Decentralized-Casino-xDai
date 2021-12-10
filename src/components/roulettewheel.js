@@ -22,10 +22,10 @@ export default function RouletteWheel() {
   const [angle, setAngle] = useState('');
   const [maxBet, setMaxBet] = useState('');
 
-  useEffect (async () => {
+  (async () => {
     setMaxBet(ethers.utils.formatEther(await determineMax()).toString());
-  }, []);
-
+  })();
+  
   let results = {
     winner: "N/A",
     amount: 0,

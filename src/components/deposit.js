@@ -8,9 +8,10 @@ export default function Deposit() {
   const [amount, setAmount] = useState();
   const [userBalance, setUserBalance] = useState();
 
-  useEffect (async () => {
+  async function fetchPoolBalance() {
     setUserBalance(ethers.utils.formatEther(await getBalance()).toString());
-  }, []);
+  }
+  fetchPoolBalance();
 
   const depositAmount = () => {
     deposit(amount);
